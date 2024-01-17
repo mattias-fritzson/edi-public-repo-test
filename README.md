@@ -1,5 +1,5 @@
 # edi-public-repo-test
-For testing and preparing a public repo for Maersk EDI resources.
+**For testing and preparing a public repo for Maersk EDI resources.**
 
 The resources of this repo will be organized according to following path model:
 
