@@ -8,7 +8,7 @@ The resources of this repo will be organized according to following path model:
 `
 
 Product Types and Business Functions will be shortened according to the Meta Data below.
-Message Type will be the different message types supported and resources to teh Message Type will be found in the corresponding folder.
+Message Type will be the different message types supported and resources related to the Message Type can be found in the corresponding folder.
 
 ## Master Data
 
