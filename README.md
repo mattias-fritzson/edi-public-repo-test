@@ -4,7 +4,7 @@
 The resources of this repo will be organized according to following path model:
 
 `
-/<Product Type>/<Business Function>/<Message Type>
+/<Product Type>/<Business Function>/<Business Process>/<Message Type>
 `
 
 Product Types and Business Functions will be shortened according to the Meta Data below.
