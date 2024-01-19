@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://uri.seeburger.com/bisas/tpm/schema"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://uri.seeburger.com/bisas/tpm/schema"
+    xmlns:tpm="http://uri.seeburger.com/bisas/tpm/schema">
+
+    <xsd:complexType name="InfoContactType">
+        <xsd:complexContent>
+            <xsd:extension base="tpm:ParamBaseType">
+                <xsd:sequence>
+                    <xsd:element name="contactName" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="contactAddress" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="contactEmail" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="contactPhone" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="contactFax" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="Meta">
+                    <xsd:complexType>
+                       <xsd:sequence>
+                            <xsd:element name="Form" type="xsd:string" default="tpm/frmInfoContact.xml"/>
+                            <xsd:element name="Icon" type="xsd:string" default="com/seeburger/gui/images/interchange.gif" />
+                            <!-- xsd:element name="TreeAttributes" type="xsd:string" default="contactName" / -->
+                       </xsd:sequence>
+                    </xsd:complexType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+</xsd:schema>
